@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Hoodie & Sweetshirt",
+      "image": "https://i.ibb.co/vx3SH16/Hoodies-Sweetshirt.png",
+      "price": "39.99"
+    },
+    {
+      "id": 2,
+      "name": "Jacket & Jeans",
+      "image": "https://i.ibb.co/GQGYXLb/Coats-Parkas.png",
+      "price": "49.99"
+    },
+    {
+      "id": 3,
+      "name": "Tees & T-Shirt",
+      "image": "https://i.ibb.co/6WnDznz/Tees-T-Shirt.png",
+      "price": "24.99"
+    },
+    {
+      "id": 4,
+      "name": "Summer Shirt & Shorts ",
+      "image": "https://i.ibb.co/qpJxKQs/Summer-Shirt-Shorts.png",
+      "price": "29.99"
+    },
+    {
+      "id": 5,
+      "name": "Summer Blouse & Sundress",
+      "image": "https://i.ibb.co/tQCz0xz/Summer-Blouses-T-Shirts.png",
+      "price": "34.99"
+    },
+    {
+      "id": 6,
+      "name": "Blouse & Shorts",
+      "image": "https://i.ibb.co/GFFQvSM/Blouse-Shorts.png",
+      "price": "29.99"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.menu {
+  > ul {
+    @apply flex items-center gap-16 text-xl;
+    > li {
+      > a {
+        @apply relative text-black;
+
+        &::after {
+          content: "";
+          @apply absolute left-0 -bottom-1 h-0.5 w-0 bg-fyellow transition-all duration-300;
+        }
+
+        &:hover::after {
+          @apply w-full;
+        }
+      }
+    }
+  }
+}

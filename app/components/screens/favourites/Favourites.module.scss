@@ -1,0 +1,12 @@
+.link {
+  @apply relative text-black w-[fit-content] text-2xl font-medium;
+
+  &::after {
+    content: "";
+    @apply absolute left-0 -bottom-1 h-0.5 w-0 bg-fyellow transition-all duration-300;
+  }
+
+  &:hover::after {
+    @apply w-full;
+  }
+}

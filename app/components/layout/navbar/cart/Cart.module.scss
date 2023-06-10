@@ -1,0 +1,18 @@
+.cart {
+  @apply mb-10;
+  .item {
+    @apply flex items-center gap-4 border-b border-b-black pb-6 pt-4;
+
+    .name {
+      @apply w-24 truncate font-semibold tracking-widest;
+    }
+
+    .price {
+      @apply mt-1 text-sm text-black;
+    }
+
+    .variation {
+      @apply text-xs text-white opacity-70;
+    }
+  }
+}
