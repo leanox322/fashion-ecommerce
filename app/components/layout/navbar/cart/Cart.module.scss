@@ -16,3 +16,10 @@
     }
   }
 }
+
+.cartBtn {
+  @apply mt-3 flex justify-between;
+  > button {
+    @apply bg-black rounded text-white text-xs p-2;
+  }
+}
