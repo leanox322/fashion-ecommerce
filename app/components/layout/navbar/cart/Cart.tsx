@@ -45,12 +45,10 @@ const Cart: FC = () => {
         </div>
         <div className="text-center mb-2">
           {!!cart.length && (
-            <button
-              onClick={() => clear()}
-              className="mt-3 bg-black rounded text-white p-2"
-            >
-              Clear all
-            </button>
+             <div className={styles.cartBtn}>
+              <button onClick={() => clear()}>Clear all</button>
+              <button>Order now</button>
+            </div>
           )}
         </div>
       </div>
